@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+:root{
+  --main-font: 'Oxygen', sans-serif;
+  --color-black:#0F0A0A;
+  --color-primary: #42E2B8;
+  --color-gradient: linear-gradient(#FAD7A1, #E96D71);
+}
+
+body{
+  margin: 0;
+  background: var(--color-gradient);
+  font-family: var(--main-font);
+}
+h1{
+  font-size: 95px;
+}
+h2{
+  font-size: 59px;
+}
+h3{
+  font-size: 48px;
+}
+h4{
+  font-size: 34px;
+}
+h5{
+  font-size: 24px;
+}
+.body1{
+  font-size: 16px;
+}
+.body1{
+  font-size: 14px;
+}
+button{
+  font-size: 14px;
+  font-family: var(--main-font);
+  font-weight: bold;
+  color: var(--color-black);
+
+}
+caption{
+  font-size: 12px;
+}
+i{
+  font-size: 20px;
+  margin-right: 8px;
+}
+.button__primary{
+  height: 49px;
+  padding: 13px 24px;
+  background: var(--color-primary);
+  border: 2px solid var(--color-black);
+  border-radius: 90px;
+  box-shadow: -4px 4px 14px 0.25px;
+}
+.button__secondary{
+  width: 142px;
+  height: 49px;
+  background: transparent;
+  border: 2px solid var(--color-black);
+  border-radius: 90px;
+
+}
+header{
+  margin: 0 16px;
+}
+nav{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav p{
+  font-weight: bold;
+}
+nav button{
+  width: 150px;
+}
+
+
+/* nav button{
+  background: #42E2B8;
+  padding: 13px 24px;
+  width: 151px;
+  height: 49px;
+  border: 2px solid black;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+} */
+
+/* Icon
+<i class="fab fa-github"></i>
+<i class="fas fa-phone-alt"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-twitter"></i> */
