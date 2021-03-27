@@ -16,9 +16,12 @@ h1{
 }
 h2{
   font-size: 59px;
+  line-height: 95.5px;
+  letter-spacing: -0.5%;
 }
 h3{
   font-size: 48px;
+  line-height: 77.7px;
 }
 h4{
   font-size: 34px;
@@ -28,9 +31,13 @@ h5{
 }
 .body1{
   font-size: 16px;
+  line-height: 25.9px;
+  letter-spacing: 0.5%;
 }
-.body1{
+.body2{
   font-size: 14px;
+  line-height: 22.7px;
+  letter-spacing: 0.25%;
 }
 button{
   font-size: 14px;
@@ -77,8 +84,47 @@ nav p{
 nav button{
   width: 150px;
 }
-
-
+figure{
+  margin: 0;
+  text-align: center;
+}
+.data__person h3{
+  margin: 0;
+  text-align: center;
+}
+.data__person h2{
+  margin:0;
+}
+.fas,
+.fab{
+  font-size: 24px;
+  padding: 8px;
+  margin-right: 16px;
+  margin-bottom: 40px;
+  color: var(--color-black);
+  background: var(--color-primary);
+  border: 2px solid var(--color-black);
+  border-radius: 5px;
+}
+main{
+  margin: 0 16px;
+}
+.description{
+  font-size: 24px;
+  line-height: 38.8px;
+  letter-spacing: 0.5%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.description__share{
+  font-size: 24px;
+  line-height: 38.8px;
+  font-weight: bold;
+  text-align: center;
+}
+.image__arrow{
+  margin-bottom: 40px;
+}
 /* nav button{
   background: #42E2B8;
   padding: 13px 24px;
@@ -94,4 +140,5 @@ nav button{
 <i class="fab fa-github"></i>
 <i class="fas fa-phone-alt"></i>
 <i class="fab fa-instagram"></i>
+<i class="fas fa-envelope"></i>
 <i class="fab fa-twitter"></i> */
