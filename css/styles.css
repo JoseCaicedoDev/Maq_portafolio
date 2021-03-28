@@ -28,6 +28,8 @@ h4{
 }
 h5{
   font-size: 24px;
+  line-height: 38.8px;
+  font-weight: bold;
 }
 .body1{
   font-size: 16px;
@@ -152,15 +154,20 @@ figure{
   margin-bottom: 80px;
 }
 label{
+  display: block;
+  margin: 16px 0 8px 10px;
+/*   margin-left: 10px;
+  margin-bottom: 8px; */
   line-height: 25.9px;
   letter-spacing: 0.5%;
   font-weight: bold;
   opacity: 80%;
 }
-input{
+input, textarea{
   border: 1px solid #858C94 ;
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 12px 16px;
+  outline: none;
 }
 form span{
   font-size: 13px;
@@ -171,7 +178,6 @@ form span{
 }
 footer div{
   display: inline;
-  text-align: center;
 }
 /* nav button{
   background: #42E2B8;
