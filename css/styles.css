@@ -46,8 +46,11 @@ button{
   color: var(--color-black);
 
 }
-caption{
+.caption{
   font-size: 12px;
+  line-height: 19.4px;
+  letter-spacing: 0.4px;
+  opacity: 0.5;
 }
 i{
   font-size: 20px;
@@ -62,14 +65,16 @@ i{
   box-shadow: -4px 4px 14px 0.25px;
 }
 .button__secondary{
-  width: 142px;
   height: 49px;
+  padding: 13px 24px;
   background: transparent;
   border: 2px solid var(--color-black);
   border-radius: 90px;
 
 }
-header{
+header,
+main,
+article{
   margin: 0 16px;
 }
 nav{
@@ -106,9 +111,6 @@ figure{
   border: 2px solid var(--color-black);
   border-radius: 5px;
 }
-main{
-  margin: 0 16px;
-}
 .description{
   font-size: 24px;
   line-height: 38.8px;
@@ -124,6 +126,27 @@ main{
 }
 .image__arrow{
   margin-bottom: 40px;
+}
+.project__title{
+  display: inline-block;
+  background: var(--color-black);
+  color: var(--color-primary);
+  padding: 4px 8px;
+  box-shadow: -4px 4px #fff;
+  margin: 40px 0 0;
+}
+.project__button{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.project__button button{
+  margin: 8px 0;
+}
+.card{
+  background: rgba(255, 255, 255, 0.2);
+  padding: 24px;
+  border-radius: 24px;
 }
 /* nav button{
   background: #42E2B8;
