@@ -105,7 +105,7 @@ figure{
   font-size: 24px;
   padding: 8px;
   margin-right: 16px;
-  margin-bottom: 40px;
+/*   margin-bottom: 40px; */
   color: var(--color-black);
   background: var(--color-primary);
   border: 2px solid var(--color-black);
@@ -147,6 +147,31 @@ figure{
   background: rgba(255, 255, 255, 0.2);
   padding: 24px;
   border-radius: 24px;
+}
+.form{
+  margin-bottom: 80px;
+}
+label{
+  line-height: 25.9px;
+  letter-spacing: 0.5%;
+  font-weight: bold;
+  opacity: 80%;
+}
+input{
+  border: 1px solid #858C94 ;
+  border-radius: 5px;
+  padding: 12px 16px;
+}
+form span{
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #DA1414;
+  opacity: 0.8;
+}
+footer div{
+  display: inline;
+  text-align: center;
 }
 /* nav button{
   background: #42E2B8;
