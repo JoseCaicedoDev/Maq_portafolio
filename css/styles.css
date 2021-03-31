@@ -41,6 +41,7 @@ h5{
   line-height: 22.7px;
   letter-spacing: 0.25%;
 }
+.button,
 button{
   font-size: 14px;
   font-family: var(--main-font);
@@ -82,6 +83,7 @@ article{
 nav{
   height: 80px;
   display: flex;
+/*   position: fixed; */
   justify-content: space-between;
   align-items: center;
 }
@@ -94,6 +96,9 @@ nav button{
 figure{
   margin: 0;
   text-align: center;
+}
+ul{
+  display: none;
 }
 .data__person h3{
   margin: 0;
@@ -193,6 +198,61 @@ footer div{
 .footer__copy{
   text-align: center;
 }
+@media (min-width: 600px) {
+  header,
+  main,
+  article{
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  .cabecera{
+    max-width: 1024px;
+    width: 100%;
+/*     left: 0;
+    top: 0; */
+    position: fixed;
+  }
+  nav{
+    background: #333;
+    padding: 0 16px;
+  }
+  ul{
+    display: inline;
+    padding: 0;
+  }
+  li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+  }
+  li a{
+    text-decoration: none;
+    color: #858c94af;
+  }
+  a:hover{
+    color: var(--color-black);
+  }
+  .data__person{
+  display:inline-flex;
+  flex-direction: row-reverse;
+ }
+.data__person figure,
+.data__person-redes {
+  width: 50%;
+}
+.data__person img{
+  width: 100%;
+}
+/* .data__person figure{
+  display: block;
+  width: 50%;
+ }
+ .data__person-redes{
+  display: block;
+  width: 50%;
+ } */
+}
+
 /* nav button{
   background: #42E2B8;
   padding: 13px 24px;
