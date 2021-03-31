@@ -14,14 +14,14 @@
       <nav>
         <p>LOGO</p>
         <ul>
-          <li class="button"><a href="">HOLA</a></li>
-          <li class="button"><a href="">PROYECTOS</a></li>
-          <li class="button"><a href="">HABLEMOS</a></li>
+          <li class="button"><a href="#hello">HOLA</a></li>
+          <li class="button"><a href="#project">PROYECTOS</a></li>
+          <li class="button"><a href="#speak">HABLEMOS</a></li>
         </ul>
-        <button class="button__primary">CURRÍCULUM</button>
+        <button class="button__primary"><span class="button__primary-download">DESCARGAR</span><span>CURRÍCULUM</span></button>
       </nav>
     </div>
-    <section class="data__person">
+    <section id="hello" class="data__person">
       <figure>
         <img src="./image/person.png" alt="Imagen de perfil">
       </figure>
@@ -38,7 +38,7 @@
       </div>
     </section>
   </header>
-  <main>
+  <main id="project">
     <p class="description">A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</p>
     <p class="description__share">Aquí hay algunos que me gustaría compartir.</p>
     <figure class="image__arrow">
@@ -46,15 +46,19 @@
     </figure>
   </main>
   <article>
-    <figure>
-      <img src="./image/portafolio.png" alt="imagen del proyecto">
-    </figure>
-    <h5 class="project__title">leonidasesteban.com</h5>
-    <p class="body1">Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
-    <div class="project__button">
-      <button href="" class="button__secondary">VER CÓDIGO</button>
-      <button href="" class="button__primary">VER PROYECTO</button>
-    </div>
+    <section class="project1">
+      <figure>
+        <img src="./image/portafolio.png" alt="imagen del proyecto">
+      </figure>
+      <div>
+        <h5 class="project__title">leonidasesteban.com</h5>
+        <p class="body1">Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
+        <div class="project__button">
+          <button href="" class="button__secondary">VER CÓDIGO</button>
+          <button href="" class="button__primary">VER PROYECTO</button>
+        </div>
+      </div>
+    </section>
     <section class="card">
       <figure>
         <img src="./image/user.png" alt="imagen de la persona">
@@ -62,8 +66,8 @@
       <p class="body1">"Elisa ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</p>
       <p class="caption">LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
     </section>
-    <section class="form">
-      <h5 class="project__title">HABLEMOS</h5>
+    <section id="speak" class="form">
+      <h5 class="form__title">HABLEMOS</h5>
       <p class="body1">Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
       <form action="">
         <div>

@@ -75,6 +75,9 @@ i{
   border-radius: 90px;
 
 }
+.button__primary-download{
+  display: none;
+}
 header,
 main,
 article{
@@ -134,7 +137,8 @@ ul{
 .image__arrow{
   margin-bottom: 40px;
 }
-.project__title{
+.project__title,
+.form__title{
   display: inline-block;
   background: var(--color-black);
   color: var(--color-primary);
@@ -198,23 +202,77 @@ footer div{
 .footer__copy{
   text-align: center;
 }
-@media (min-width: 600px) {
+
+
+@media (min-width: 610px) {
   header,
   main,
   article{
     max-width: 1024px;
     margin: 0 auto;
   }
-  .cabecera{
+/*   .cabecera{
     max-width: 1024px;
     width: 100%;
-/*     left: 0;
-    top: 0; */
     position: fixed;
   }
   nav{
     background: #333;
     padding: 0 16px;
+  } */
+
+  .button__primary{
+    width: 250px;
+    display: block;
+  }
+  .button__primary-download{
+    margin-right: 8px;
+    display: inline-block;
+  }
+  .data__person{
+/*     margin-top: 80px; */
+  display:inline-flex;
+  flex-direction: row-reverse;
+ }
+  .data__person figure,
+  .data__person-redes {
+    width: 50%;
+  }
+  .data__person img{
+    width: 100%;
+  }
+  .card{
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  .form{
+    max-width: 545px;
+    margin: 0 auto;
+    padding: 80px 0;
+  }
+  .form__title{
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+
+@media (min-width: 690px){
+  .data__person-redes{
+    margin-top: 80px;
+  }
+  .data__person-redes h3{
+    text-align: left;
+  }
+  main{
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  .description{
+    max-width: 700px;
+    margin: 0 auto;
   }
   ul{
     display: inline;
@@ -227,21 +285,26 @@ footer div{
   }
   li a{
     text-decoration: none;
-    color: #858c94af;
+    color: #858C94;
   }
   a:hover{
     color: var(--color-black);
   }
-  .data__person{
-  display:inline-flex;
-  flex-direction: row-reverse;
- }
-.data__person figure,
-.data__person-redes {
-  width: 50%;
-}
-.data__person img{
-  width: 100%;
+  .card{
+    max-width: 600px;
+    padding: 50px;
+  }
+  .project1{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 80px 120px;
+  }
+  .project__button{
+    display: inline-block;
+  }
+  .project__button button{
+    display: inline;
+  }
 }
 /* .data__person figure{
   display: block;
