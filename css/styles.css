@@ -260,6 +260,11 @@ footer div{
 
 
 @media (min-width: 690px){
+  article,
+  section,
+  form{
+    outline: 1px solid red;
+  }
   .data__person-redes{
     margin-top: 80px;
   }
@@ -299,12 +304,19 @@ footer div{
     flex-direction: row-reverse;
     padding: 80px 120px;
   }
+  .project1 figure{
+    width: 100%;
+  }
+  .form p{
+    text-align: center;
+  }
   .project__button{
     display: inline-block;
   }
   .project__button button{
     display: inline;
   }
+
 }
 /* .data__person figure{
   display: block;
